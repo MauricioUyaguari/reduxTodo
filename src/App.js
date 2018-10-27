@@ -13,7 +13,23 @@ class App extends Component {
           </h2>
         </header>
         <div className="Todo-App">
-          
+          <form>
+            <input type="text"/>
+          </form>
+          <div>
+            <ul> 
+              {
+                this.props.todos.map(todo => (
+                  <li key={todo.id}> 
+                   <input type="checkbox" defaultChecked={todo.isComplete}/>
+                   {todo.name}
+                  </li>
+                )
+
+                )
+              }
+            </ul>
+          </div>
         
         
         
