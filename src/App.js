@@ -4,7 +4,10 @@ import './App.css';
 import TodoForm from './components/TodoForm';
 import TodoList from './components/TodoList';
 class App extends Component {
+ 
   render() {
+    console.log(this);
+    console.log(this.props);
     return (
       <div className="App">
         <header className="App-header">

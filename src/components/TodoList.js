@@ -9,13 +9,11 @@ const TodoItem = ({id, name, isComplete}) => (
 
 
 
-export default(props) => (
-    
+export default(props) => ( 
     <div>
         <ul> 
         {
-        props.todos.map(todo => <TodoItem key={todo.id} todo={todo}/>)
-        
+        props.todos.map(todo => <TodoItem key={todo.id} {...todo}/>)  
         }
         </ul>
     </div>
