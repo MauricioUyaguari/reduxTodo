@@ -4,17 +4,27 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import store from './store';
-// const state = {
-//     todos: [
-//         {id: 1, name: "Render Static UI", isComplete: true},
-//         {id: 2, name: "Create Initial UI", isComplete: true},
-//         {id: 3, name: "Render Static UI", isComplete: false}
-//     ]
-// }
 
-const state = store.getState();
+const todoChangeHandler = (val) => store.dispatch({
+    type: 'CURRENT_UPDATE',
+    payload: val
+})
 
-ReactDOM.render(<App {...state} />, document.getElementById('root'));
+
+const render = () => {
+    const state = store.getState();
+    ReactDOM.render(<App 
+                    todos={state.todos}  
+                    currentTodo={state.currentTodo}
+                    changeCurrent={todoChangeHandler}
+                    />, document.getElementById('root'));
+
+}
+render();
+store.subscribe(render)
+
+
+
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
