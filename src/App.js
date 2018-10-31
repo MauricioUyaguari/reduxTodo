@@ -3,11 +3,10 @@ import logo from './logo.svg';
 import './App.css';
 import TodoForm from './components/TodoForm';
 import TodoList from './components/TodoList';
+
 class App extends Component {
- 
+
   render() {
-    console.log(this);
-    console.log(this.props);
     return (
       <div className="App">
         <header className="App-header">
@@ -17,10 +16,8 @@ class App extends Component {
           </h2>
         </header>
         <div className="Todo-App">
-          <TodoForm 
-          currentTodo={this.props.currentTodo}
-          changeCurrent={this.props.changeCurrent} />
-          <TodoList todos={this.props.todos}/>
+          <TodoForm/>
+          <TodoList/>
         </div> 
 
       </div>
@@ -28,4 +25,7 @@ class App extends Component {
   }
 }
 
-export default App;
+
+
+export default App
+
