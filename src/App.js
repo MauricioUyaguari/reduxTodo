@@ -17,7 +17,7 @@ class App extends Component {
         </header>
         <div className="Todo-App">
           <TodoForm/>
-          <Message message={'this is the'}/>
+          <Message />
           <TodoList/>
         </div> 
 
