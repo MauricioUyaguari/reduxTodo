@@ -1,84 +1,84 @@
 {
   "todos": [
     {
-      "id": 1,
-      "name": "configure server",
-      "isComplete": true
+      "name": "1. take over",
+      "isComplete": true,
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "start server",
-      "isComplete": false
+      "name": "2. be a bodd",
+      "isComplete": false,
+      "id": 2
     },
     {
-      "id": 3,
-      "name": "Load data into app",
-      "isComplete": false
+      "name": "let them be hoes",
+      "isComplete": false,
+      "id": 3
     },
     {
-      "id": 4,
-      "name": "Add records",
-      "isComplete": false
+      "name": "so this is very gklkkkkkkkkkkkkkkkkkkkkkkkkk",
+      "isComplete": false,
+      "id": 4
     },
     {
-      "id": 5,
-      "name": "update records",
-      "isComplete": false
+      "name": "okay so that is getting weird",
+      "isComplete": false,
+      "id": 5
     },
     {
-      "name": "sasfsdaf",
+      "name": "but we will make it",
       "isComplete": false,
       "id": 6
     },
     {
-      "name": "hello my name",
-      "isComplete": false,
-      "id": 7
-    },
-    {
-      "name": "asdf",
+      "name": "on the server",
       "isComplete": false,
       "id": 8
     },
     {
-      "name": "dasfd",
+      "name": "alongside another server",
       "isComplete": false,
       "id": 9
     },
     {
-      "name": "we are doing something",
+      "name": "json",
       "isComplete": false,
       "id": 10
     },
     {
-      "name": "test",
+      "name": "+",
       "isComplete": false,
       "id": 11
     },
     {
-      "name": "lko",
+      "name": "/",
       "isComplete": false,
       "id": 12
     },
     {
-      "name": "11",
+      "name": "${}",
       "isComplete": false,
       "id": 13
     },
     {
-      "name": "l",
+      "name": "$",
       "isComplete": false,
       "id": 14
     },
     {
-      "name": "sass",
+      "name": "====",
       "isComplete": false,
       "id": 15
     },
     {
-      "name": "sdd",
+      "name": "===",
       "isComplete": false,
       "id": 16
+    },
+    {
+      "name": "lets",
+      "isComplete": false,
+      "id": 17
     }
   ]
 }
