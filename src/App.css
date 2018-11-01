@@ -70,6 +70,6 @@ li:hover span.delete-item {
 }
 
 a {
-  padding-left: 2px;
-  padding-right: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
